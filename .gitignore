@@ -3,6 +3,11 @@
 # dependencies
 node_modules/
 
+# environment variables
+.env
+.env.*
+!.env.example
+
 # Expo
 .expo/
 dist/
@@ -25,13 +30,18 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+pnpm-debug.*
 
 # macOS
 .DS_Store
 *.pem
 
-# local env files
-.env*.local
+# editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
 
 # typescript
 *.tsbuildinfo
