@@ -1,4 +1,4 @@
-# TH2 Weather Food App
+# Weather Food App
 
 Ung dung React Native/Expo goi y mon an dua tren thoi tiet hien tai. App lay vi tri nguoi dung, goi OpenWeatherMap de hien thi thoi tiet, sau do de xuat danh sach mon an phu hop voi dieu kien nang, mua, lanh hoac nhieu may.
 
