@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "temp_expo",
-    "slug": "temp_expo",
+    "name": "th2-weather-food",
+    "slug": "th2-weather-food",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,8 +12,19 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Cho phép ứng dụng truy cập vị trí để hiển thị thời tiết chính xác."
+        }
+      ]
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Cho phép ứng dụng truy cập vị trí để hiển thị thời tiết chính xác."
+      }
     },
     "android": {
       "adaptiveIcon": {
